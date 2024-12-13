@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 const Facture = () => {
   const [fact, setFact] = useState({
     codeFact: 1,
@@ -7,7 +6,7 @@ const Facture = () => {
     mtFact: 500,
   });
   const handleChange = () => {
-    setFact({ ...fact, numfact: 200 });
+    setFact({ ...fact, codeFact: 2, mtFact: 200 });
   };
   return (
     <>
